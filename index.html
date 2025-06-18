@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>De&Aca Barbería - Estilo y Precisión</title>
+    <meta name="description" content="La mejor barbería de la ciudad. Reserva tu turno para un corte de pelo o arreglo de barba con estilo, precisión y tradición.">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <header class="header">
+        <nav class="nav container">
+            <a href="#home" class="nav__logo">
+                <img src="https://via.placeholder.com/150x50/000000/D4AF37?text=De%26Aca" alt="De&Aca Barbería Logo" id="logo-img">
+            </a>
+
+            <div class="nav__menu" id="nav-menu">
+                <ul class="nav__list">
+                    <li class="nav__item"><a href="#home" class="nav__link active-link">Home</a></li>
+                    <li class="nav__item"><a href="#services" class="nav__link">Servicios</a></li>
+                    <li class="nav__item"><a href="#gallery" class="nav__link">Galería</a></li>
+                    <li class="nav__item"><a href="#about" class="nav__link">Nosotros</a></li>
+                    <li class="nav__item"><a href="#contact" class="nav__link">Contacto</a></li>
+                </ul>
+            </div>
+
+            <a href="#contact" class="button button--header">Book Now</a>
+            
+            <div class="nav__toggle" id="nav-toggle">
+                <i class="fas fa-bars"></i>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section class="hero" id="home">
+            <div class="hero__container container">
+                <div class="hero__content">
+                    <h1 class="hero__title">Style. Precision. Tradition.</h1>
+                    <p class="hero__subtitle">Reserva tu turno hoy mismo.</p>
+                    <a href="#contact" class="button">Reserva Ahora</a>
+                </div>
+            </div>
+        </section>
+
+        <section class="services section" id="services">
+            <h2 class="section__title">Nuestros Servicios</h2>
+            <div class="services__container container grid">
+                <div class="service__card">
+                    <div class="service__icon">
+                        <i class="fas fa-cut"></i>
+                    </div>
+                    <h3 class="service__title">Corte de Pelo</h3>
+                    <p class="service__description">Un corte clásico o moderno, adaptado a tu estilo y con la máxima precisión.</p>
+                    <span class="service__price">$2500</span>
+                </div>
+                <div class="service__card">
+                    <div class="service__icon">
+                        <i class="fas fa-user-ninja"></i> </div>
+                    <h3 class="service__title">Arreglo de Barba</h3>
+                    <p class="service__description">Diseño, perfilado e hidratación para una barba impecable y saludable.</p>
+                    <span class="service__price">$1500</span>
+                </div>
+                <div class="service__card">
+                    <div class="service__icon">
+                        <i class="fas fa-handshake"></i>
+                    </div>
+                    <h3 class="service__title">Combo Corte + Barba</h3>
+                    <p class="service__description">La experiencia completa para un look renovado y perfectamente cuidado.</p>
+                    <span class="service__price">$3500</span>
+                </div>
+                <div class="service__card">
+                     <div class="service__icon">
+                        <i class="fas fa-child"></i>
+                    </div>
+                    <h3 class="service__title">Corte de Niños</h3>
+                    <p class="service__description">Cortes divertidos y cómodos para los más pequeños, con paciencia y profesionalismo.</p>
+                    <span class="service__price">$2000</span>
+                </div>
+            </div>
+        </section>
+
+        <section class="gallery section" id="gallery">
+            <h2 class="section__title">Nuestra Galería</h2>
+            <div class="gallery__container container grid">
+                <img src="https://images.unsplash.com/photo-1599351522372-76b3f71375a0?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwzNjUyOXwwfDF8c2VhcmNofDN8fGJhcmJlcnxlbnwwfHx8fDE2NzI4NjI5OTM&ixlib=rb-4.0.3&q=80&w=400" alt="Foto de corte de pelo" class="gallery__img">
+                <img src="https://images.unsplash.com/photo-1621605815971-fbc33300bee4?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwzNjUyOXwwfDF8c2VhcmNofDEwfHxiYXJibmVyc2hvcHxlbnwwfHx8fDE2NzI4NjMwMjU&ixlib=rb-4.0.3&q=80&w=400" alt="Interior de la barbería" class="gallery__img">
+                <img src="https://images.unsplash.com/photo-1567894340345-a6162c449646?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwzNjUyOXwwfDF8c2VhcmNofDEyfHxiYXJibmVyc2hvcHxlbnwwfHx8fDE2NzI4NjMwMjU&ixlib=rb-4.0.3&q=80&w=400" alt="Barbero trabajando" class="gallery__img">
+                <img src="https://images.unsplash.com/photo-1622288399343-4138403a73a4?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwzNjUyOXwwfDF8c2VhcmNofDIyfHxiYXJibmVyc2hvcHxlbnwwfHx8fDE2NzI4NjMwMjU&ixlib=rb-4.0.3&q=80&w=400" alt="Detalle de afeitado" class="gallery__img">
+                <img src="https://images.unsplash.com/photo-1585749444723-5186e437013d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwzNjUyOXwwfDF8c2VhcmNofDh8fG1lbnMlMjBoYWlyY3V0fGVufDB8fHx8MTY3Mjg2MzEwOQ&ixlib=rb-4.0.3&q=80&w=400" alt="Peinado finalizado" class="gallery__img">
+                <img src="https://images.unsplash.com/photo-1517832606299-7ae940204189?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwzNjUyOXwwfDF8c2VhcmNofDE0fHxiYXJibmVyJTIwc2hvcCUyMGludGVyaW9yfGVufDB8fHx8MTY3Mjg2MzEzNg&ixlib=rb-4.0.3&q=80&w=400" alt="Sillas de la barbería" class="gallery__img">
+            </div>
+        </section>
+
+        <section class="about section" id="about">
+            <h2 class="section__title">Sobre Nosotros</h2>
+            <div class="about__container container grid">
+                <div class="about__content">
+                    <h3 class="about__heading">Nuestra Filosofía</h3>
+                    <p class="about__description">En De&Aca Barbería, combinamos técnicas tradicionales con las últimas tendencias para ofrecerte una experiencia única. Creemos que un buen corte de pelo es más que un simple servicio; es un arte y un momento de relax para vos. Nuestro compromiso es con la calidad, la atención al detalle y la satisfacción de cada cliente que confía en nosotros.</p>
+                </div>
+                <div class="about__image">
+                    <img src="https://images.unsplash.com/photo-1536520002442-9979a13b7b34?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwzNjUyOXwwfDF8c2VhcmNofDE3fHxiYXJibmVyfGVufDB8fHx8MTY3Mjg2Mjk5Mw&ixlib=rb-4.0.3&q=80&w=400" alt="Barbero en su taller">
+                </div>
+            </div>
+        </section>
+
+        <section class="contact section" id="contact">
+            <h2 class="section__title">Contacto y Reservas</h2>
+            <div class="contact__container container grid">
+                <form action="#" class="contact__form" id="booking-form">
+                    <h3 class="contact__title">Reserva tu Turno</h3>
+                    <div class="contact__inputs">
+                        <input type="text" placeholder="Nombre" class="contact__input" id="name" required>
+                        <input type="email" placeholder="Email" class="contact__input" id="email" required>
+                        <input type="datetime-local" class="contact__input" id="datetime" required>
+                        <select class="contact__input" id="service" required>
+                            <option value="">Selecciona un servicio</option>
+                            <option value="Corte de Pelo">Corte de Pelo</option>
+                            <option value="Arreglo de Barba">Arreglo de Barba</option>
+                            <option value="Combo Corte + Barba">Combo Corte + Barba</option>
+                            <option value="Corte de Niños">Corte de Niños</option>
+                        </select>
+                    </div>
+                    <button type="submit" class="button">Reservar Turno</button>
+                </form>
+
+                <div class="contact__info">
+                    <h3 class="contact__title">O contáctanos por:</h3>
+                    <div class="contact__details">
+                        <a href="tel:+5491112345678" class="contact__link"><i class="fas fa-phone"></i> +54 9 11 1234-5678</a>
+                        <a href="https://wa.me/5491112345678" target="_blank" class="contact__link"><i class="fab fa-whatsapp"></i> WhatsApp</a>
+                        <a href="https://instagram.com" target="_blank" class="contact__link"><i class="fab fa-instagram"></i> @deaca_barberia</a>
+                    </div>
+                    <div class="contact__map">
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3284.016887889494!2d-58.3815704!3d-34.6037389!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bccacf1415ef1b%3A0x33b3c3d5a27f6f59!2sObelisco!5e0!3m2!1ses-419!2sar!4v1672863599123!5m2!1ses-419!2sar" width="100%" height="250" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="footer__container container">
+            <p class="footer__copy">&copy; 2025 De&Aca Barbería. Todos los derechos reservados.</p>
+            <div class="footer__socials">
+                <a href="https://instagram.com" target="_blank" class="footer__social-link"><i class="fab fa-instagram"></i></a>
+                <a href="https://whatsapp.com" target="_blank" class="footer__social-link"><i class="fab fa-whatsapp"></i></a>
+                <a href="https://facebook.com" target="_blank" class="footer__social-link"><i class="fab fa-facebook"></i></a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
