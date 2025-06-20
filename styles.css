@@ -40,7 +40,7 @@
 
 html {
   scroll-behavior: smooth;
-  scroll-padding-top: var(--header-height);
+  /*scroll-padding-top: var(--header-height);*/
 }
 
 body {
@@ -82,7 +82,7 @@ h1, h2, h3 {
 }
 
 .section {
-  padding: 4.5rem 0 2rem;
+  padding: 6.5rem 0 2rem;
 }
 
 .section__title {
