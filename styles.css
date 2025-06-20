@@ -3,7 +3,7 @@
 
 /* ============================ VARIABLES CSS ============================ */
 :root {
-  --header-height: 3.5rem;
+  --header-height: 5.5rem;
 
   /* Colors */
   --gold-color: #D4AF37;
@@ -34,7 +34,7 @@
 /* ============================ BASE ============================ */
 * {
   box-sizing: border-box;
-  padding: 10;
+  padding: 0;
   margin: 0;
 }
 
