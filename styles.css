@@ -117,7 +117,7 @@ h1, h2, h3 {
 /* ============================ HEADER & NAV ============================ */
 .header {
   width: 100%;
-  background-color: transparent;
+  background-color: var(--black-color);
   position: fixed;
   top: 0;
   left: 0;
