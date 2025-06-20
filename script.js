@@ -49,7 +49,7 @@ function scrollActive() {
 
     sections.forEach(current => {
         const sectionHeight = current.offsetHeight;
-        const sectionTop = current.offsetTop - 58; // 58px header height
+        const sectionTop = current.offsetTop - 91; // 58px header height
         const sectionId = current.getAttribute('id');
         const correspondingLink = document.querySelector('.nav__menu a[href*=' + sectionId + ']');
 
